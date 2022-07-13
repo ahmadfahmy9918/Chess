@@ -126,7 +126,7 @@ public class MainClass extends Game {
 
 
     public static void main(String[] args) {
-        //Piece board[][] = new Piece[9][9];
+        Piece board[][] = new Piece[9][9];
         Piece Empty = new Piece(0, 'n', ' ');
         Piece temp = new Piece(0, 'n', ' ');
 
